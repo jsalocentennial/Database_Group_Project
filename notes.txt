@@ -1,0 +1,8 @@
+Requirements
+
+
+Minimum 1 sequence - Books table primary id
+
+b-tree and vector indexes on high frequency search columns
+
+Minimum 6 Triggers - Auto audit logging, order status transitions ( Shipped, Delivered, On the way ), 
