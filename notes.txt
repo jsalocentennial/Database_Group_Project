@@ -1,4 +1,4 @@
-Requirements
+Database Requirements
 
 
 Minimum 1 sequence - Books table primary id
@@ -6,3 +6,18 @@ Minimum 1 sequence - Books table primary id
 b-tree and vector indexes on high frequency search columns
 
 Minimum 6 Triggers - Auto audit logging, order status transitions ( Shipped, Delivered, On the way ), 
+
+8-12 Table: Table CUSTOMER_RETURN CASCADE CONSTRAINTS;
+            Table ORDERED_BOOKS CASCADE CONSTRAINTS;
+            Table CUSTOMER_PURCHASE CASCADE CONSTRAINTS;
+            Table INVENTORY_ORDERED_BOOKS CASCADE CONSTRAINTS;
+            Table INVENTORY CASCADE CONSTRAINTS;
+            Table BOOKS CASCADE CONSTRAINTS;
+            Table CUSTOMER CASCADE CONSTRAINTS;
+            Table AUTHOR CASCADE CONSTRAINTS;
+            Table PUBLISHER CASCADE CONSTRAINTS;
+            Table Audit Log
+            Table Semantic indexing (vector)
+
+
+Include at least one table with vector column and text attributes for semantic indexing
