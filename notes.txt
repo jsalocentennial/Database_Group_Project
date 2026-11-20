@@ -1,11 +1,12 @@
 Database Requirements
 
+* = work in progress
 
-Minimum 1 sequence - Books table primary id
+Minimum 1 sequence - Books table primary id *
 
-b-tree and vector indexes on high frequency search columns
+b-tree and vector indexes on high frequency search columns *
 
-Minimum 6 Triggers - Auto audit logging, order status transitions ( Shipped, Delivered, On the way ), 
+Minimum 6 Triggers - Auto audit logging, order status transitions ( Shipped, Delivered, On the way ),  *
 
 8-12 Table: Table CUSTOMER_RETURN CASCADE CONSTRAINTS;
             Table ORDERED_BOOKS CASCADE CONSTRAINTS;
@@ -16,8 +17,21 @@ Minimum 6 Triggers - Auto audit logging, order status transitions ( Shipped, Del
             Table CUSTOMER CASCADE CONSTRAINTS;
             Table AUTHOR CASCADE CONSTRAINTS;
             Table PUBLISHER CASCADE CONSTRAINTS;
-            Table Audit Log
-            Table Semantic indexing (vector)
+            Table Audit Log *
+            Table Semantic indexing (vector) *
 
 
-Include at least one table with vector column and text attributes for semantic indexing
+Include at least one table with vector column and text attributes for semantic indexing *
+
+Packages: at least 3 stored procedures and functions with error handling and rowtypes% *
+
+Hybrid Search: implement combined relational filtering + semantic similarity queries *
+
+Embeddings Integration: Demonstrate vector generation natively (Oracle VECTOR_EMBEDDING +
+ONNX) or externally (Python / Sentence Transformers
+/ ChromaDB) stored into Oracle (8 marks). *
+
+
+
+Ideas - Function idea - Ordered books table only shows the quantity and price at time of order. We can create a function to display the total cost of the order.
+      - Procedure idea is to check the amount of returns a customer has done to make sure that they don't return more than they bought.
