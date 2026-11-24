@@ -1,0 +1,1217 @@
+
+Error starting at line : 4 in command -
+DROP Table CATEGORY CASCADE CONSTRAINTS
+Error report -
+ORA-00942: table or view "COMP214"."CATEGORY" does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+Error starting at line : 5 in command -
+DROP Table AUDIT_LOG CASCADE CONSTRAINTS
+Error report -
+ORA-00942: table or view "COMP214"."AUDIT_LOG" does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+Error starting at line : 6 in command -
+DROP Table BOOK_REVIEW CASCADE CONSTRAINTS
+Error report -
+ORA-00942: table or view "COMP214"."BOOK_REVIEW" does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+Error starting at line : 7 in command -
+DROP Table CUSTOMER_RETURN CASCADE CONSTRAINTS
+Error report -
+ORA-00942: table or view "COMP214"."CUSTOMER_RETURN" does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+Error starting at line : 8 in command -
+DROP Table ORDERED_BOOKS CASCADE CONSTRAINTS
+Error report -
+ORA-00942: table or view "COMP214"."ORDERED_BOOKS" does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+Error starting at line : 9 in command -
+DROP Table CUSTOMER_PURCHASE CASCADE CONSTRAINTS
+Error report -
+ORA-00942: table or view "COMP214"."CUSTOMER_PURCHASE" does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+Error starting at line : 10 in command -
+DROP Table INVENTORY_ORDERED_BOOKS CASCADE CONSTRAINTS
+Error report -
+ORA-00942: table or view "COMP214"."INVENTORY_ORDERED_BOOKS" does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+Error starting at line : 11 in command -
+DROP Table INVENTORY CASCADE CONSTRAINTS
+Error report -
+ORA-00942: table or view "COMP214"."INVENTORY" does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+Error starting at line : 12 in command -
+DROP Table BOOKS CASCADE CONSTRAINTS
+Error report -
+ORA-00942: table or view "COMP214"."BOOKS" does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+Error starting at line : 13 in command -
+DROP Table CUSTOMER CASCADE CONSTRAINTS
+Error report -
+ORA-00942: table or view "COMP214"."CUSTOMER" does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+Error starting at line : 14 in command -
+DROP Table AUTHOR CASCADE CONSTRAINTS
+Error report -
+ORA-00942: table or view "COMP214"."AUTHOR" does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+Error starting at line : 15 in command -
+DROP Table PUBLISHER CASCADE CONSTRAINTS
+Error report -
+ORA-00942: table or view "COMP214"."PUBLISHER" does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+
+Error starting at line : 18 in command -
+DROP SEQUENCE BOOKS_BOOK_ID_SEQ
+Error report -
+ORA-02289: sequence does not exist
+02289. 00000 -  "sequence does not exist"
+*Cause:    The specified sequence does not exist, or the user does
+           not have the required privilege to perform this operation.
+*Action:   Make sure the sequence name is correct, and that you have
+           the right to perform the desired operation on this sequence.
+
+Error starting at line : 19 in command -
+DROP SEQUENCE AUDIT_LOG_SEQ
+Error report -
+ORA-02289: sequence does not exist
+02289. 00000 -  "sequence does not exist"
+*Cause:    The specified sequence does not exist, or the user does
+           not have the required privilege to perform this operation.
+*Action:   Make sure the sequence name is correct, and that you have
+           the right to perform the desired operation on this sequence.
+
+Error starting at line : 20 in command -
+DROP SEQUENCE CUSTOMER_PURCHASE_SEQ
+Error report -
+ORA-02289: sequence does not exist
+02289. 00000 -  "sequence does not exist"
+*Cause:    The specified sequence does not exist, or the user does
+           not have the required privilege to perform this operation.
+*Action:   Make sure the sequence name is correct, and that you have
+           the right to perform the desired operation on this sequence.
+
+Error starting at line : 21 in command -
+DROP SEQUENCE ORDERED_BOOKS_SEQ
+Error report -
+ORA-02289: sequence does not exist
+02289. 00000 -  "sequence does not exist"
+*Cause:    The specified sequence does not exist, or the user does
+           not have the required privilege to perform this operation.
+*Action:   Make sure the sequence name is correct, and that you have
+           the right to perform the desired operation on this sequence.
+
+Error starting at line : 22 in command -
+DROP SEQUENCE BOOK_REVIEW_SEQ
+Error report -
+ORA-02289: sequence does not exist
+02289. 00000 -  "sequence does not exist"
+*Cause:    The specified sequence does not exist, or the user does
+           not have the required privilege to perform this operation.
+*Action:   Make sure the sequence name is correct, and that you have
+           the right to perform the desired operation on this sequence.
+
+Table CATEGORY created.
+
+
+Table PUBLISHER created.
+
+
+Table AUTHOR created.
+
+
+Table BOOKS created.
+
+
+Sequence BOOKS_BOOK_ID_SEQ created.
+
+
+Table BOOKS altered.
+
+
+Table CUSTOMER created.
+
+
+Table CUSTOMER_PURCHASE created.
+
+
+Sequence CUSTOMER_PURCHASE_SEQ created.
+
+
+Table ORDERED_BOOKS created.
+
+
+Sequence ORDERED_BOOKS_SEQ created.
+
+
+Table CUSTOMER_RETURN created.
+
+
+Table INVENTORY created.
+
+
+Table INVENTORY_ORDERED_BOOKS created.
+
+
+Sequence AUDIT_LOG_SEQ created.
+
+
+Table AUDIT_LOG created.
+
+
+Table BOOK_REVIEW created.
+
+
+Sequence BOOK_REVIEW_SEQ created.
+
+
+Table BOOK_REVIEW altered.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+Package PURCHASE_PACKAGE compiled
+
+
+Package Body PURCHASE_PACKAGE compiled
+
+
+Trigger TRG_AUDIT_PURCHASE compiled
+
+
+Trigger TRG_AUDIT_ORDER_STATUS compiled
+
+
+Trigger TRG_VALIDATE_PURCHASE_STATUS compiled
+
+
+Table CATEGORY dropped.
+
+
+Table AUDIT_LOG dropped.
+
+
+Table BOOK_REVIEW dropped.
+
+
+Table CUSTOMER_RETURN dropped.
+
+
+Table ORDERED_BOOKS dropped.
+
+
+Table CUSTOMER_PURCHASE dropped.
+
+
+Table INVENTORY_ORDERED_BOOKS dropped.
+
+
+Table INVENTORY dropped.
+
+
+Table BOOKS dropped.
+
+
+Table CUSTOMER dropped.
+
+
+Table AUTHOR dropped.
+
+
+Table PUBLISHER dropped.
+
+
+Sequence BOOKS_BOOK_ID_SEQ dropped.
+
+
+Sequence AUDIT_LOG_SEQ dropped.
+
+
+Sequence CUSTOMER_PURCHASE_SEQ dropped.
+
+
+Sequence ORDERED_BOOKS_SEQ dropped.
+
+
+Sequence BOOK_REVIEW_SEQ dropped.
+
+
+Table CATEGORY created.
+
+
+Table PUBLISHER created.
+
+
+Table AUTHOR created.
+
+
+Table BOOKS created.
+
+
+Sequence BOOKS_BOOK_ID_SEQ created.
+
+
+Table BOOKS altered.
+
+
+Table CUSTOMER created.
+
+
+Table CUSTOMER_PURCHASE created.
+
+
+Sequence CUSTOMER_PURCHASE_SEQ created.
+
+
+Table ORDERED_BOOKS created.
+
+
+Sequence ORDERED_BOOKS_SEQ created.
+
+
+Table CUSTOMER_RETURN created.
+
+
+Table INVENTORY created.
+
+
+Table INVENTORY_ORDERED_BOOKS created.
+
+
+Sequence AUDIT_LOG_SEQ created.
+
+
+Table AUDIT_LOG created.
+
+
+Table BOOK_REVIEW created.
+
+
+Sequence BOOK_REVIEW_SEQ created.
+
+
+Table BOOK_REVIEW altered.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+Package PURCHASE_PACKAGE compiled
+
+
+Package Body PURCHASE_PACKAGE compiled
+
+
+Trigger TRG_AUDIT_PURCHASE compiled
+
+
+Trigger TRG_AUDIT_ORDER_STATUS compiled
+
+
+Trigger TRG_VALIDATE_PURCHASE_STATUS compiled
+
