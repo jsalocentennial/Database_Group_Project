@@ -866,3 +866,16 @@ BEGIN
     END IF;
 END;
 /
+
+--Message when embeddings are altered 
+
+CREATE OR REPLACE TRIGGER TRG_REVIEW_EMBEDDING_UPDATE
+AFTER UPDATE OF REVIEW_EMBEDDING ON BOOK_REVIEW
+FOR EACH ROW
+BEGIN
+    DBMS_OUTPUT.PUT_LINE(
+        'Embedding update executed for review ID: '
+        || :NEW.REVIEW_ID
+    );
+END;
+/
